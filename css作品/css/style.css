@@ -1,0 +1,567 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(233, 235, 238);
+
+}
+
+.me,
+.advice,
+.think,
+.social,
+.thinkabout {
+    width: 500px;
+
+}
+
+.aboutme {
+    margin-top: 40px;
+    height: 500px;
+
+    width: 300px;
+    margin-left: 10px;
+}
+
+.skill {
+    display: block;
+    background-color: rgb(63, 81, 181);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.skill:hover {
+    color: white;
+    text-decoration: none;
+}
+.in{
+    align-self: center;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:rgb(28,30,33);
+    
+}
+
+.mycard1 {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 5px;
+    
+    line-height: 1.5;
+    
+
+}
+
+.mycard1 li {
+    list-style: none;
+}
+
+.myskill {
+    list-style: none;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+header {
+
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+    min-width: 100vw;
+    box-sizing: border-box;
+    background-color: rgb(63, 81, 181);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+header a:visited {
+    color: white;
+}
+
+.logo {
+    align-self: center;
+    height: 25px;
+
+}
+
+.logo img {
+    background-color: white;
+
+    height: 25px;
+    position: relative;
+
+}
+
+.search {
+
+    align-self: center;
+    width: 400px;
+    height: 25px;
+    background-color: white;
+    line-height: 30px;
+
+
+    margin-left: 10px;
+
+
+
+}
+
+.nav {
+
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: white;
+    line-height: 40px;
+
+
+    margin-left: 10px;
+}
+
+.nav img {
+
+    vertical-align: middle;
+    width: 40px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.nav span {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.think a:visited {
+    color: rgb(97, 103, 112)
+}
+
+.body {
+
+    position: relative;
+
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+
+.left li {
+    line-height: 30px;
+    width: 184px;
+    color: rgb(97, 103, 112);
+    transition: .5s;
+    height: 30px;
+
+    font-size: 16px;
+    list-style-type: none;
+    padding-top: 10px
+}
+
+.left li:hover {
+    background-color: rgb(192, 195, 201);
+
+
+}
+
+.left li:hover a span {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.left li a {
+
+    transition: .5s;
+    text-decoration: none;
+
+}
+
+.left li a:visited {
+    color: black
+}
+
+.left img {
+    width: 20px;
+
+}
+
+.left-cat {
+    width: 40px;
+    height: 50px;
+
+
+    object-fit: cover;
+
+
+}
+
+.left-cat img {
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+
+}
+
+.cat1 {
+    object-fit: cover;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+
+
+.cat1 img {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.cat {
+
+    margin-left: 10px;
+    
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    /* background-image: cover;  */
+}
+
+.think span {
+    font-size: 20px;
+    line-height: 50px;
+
+}
+.about-me{
+    font-size: 15px;
+    padding: 10px;
+    line-height: 2;
+    color:rgb(28,30,33)
+}
+
+.social {
+    border-top: 1px solid rgb(220, 220, 220);
+    background-color: rgb(rgb(245, 246, 247));
+
+
+
+}
+
+.social span {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.thinkabout {
+    /* margin-bottom: 50px; */
+
+    background-color: #fff;
+    color: rgb(96, 103, 112);
+    /* width: 910px; */
+
+
+}
+
+.thinkabout span {
+    font-size: 15px;
+}
+
+.advice {
+    background-color: rgb(245, 246, 247);
+
+    font-size: 12px;
+
+
+
+}
+
+.advice span {
+    color: rgb(96, 103, 112);
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.name2 {
+    margin-right: 15px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.me {
+    /* border-top: 1px solid #000; */
+    background-color: white;
+
+    margin-top: 20px;
+
+
+}
+
+.name {
+
+
+    margin-left: 5px;
+    color: rgb(56, 88, 152);
+    font-weight: bold;
+
+}
+
+
+.cat2 {
+
+    display: flex;
+    margin-left: 10px;
+
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+
+.cat2 img {
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+    height: 40px;
+    border-radius: 50%;
+
+    width: 40px;
+
+    vertical-align: middle;
+
+}
+
+.cat2 span {
+
+    color: rgb(56, 88, 152);
+    font-size: 15px;
+}
+
+
+
+.pho {
+
+    width: 100%;
+
+
+}
+
+/* .top{
+        display: flex;
+    } */
+.icon {
+    padding-left: 10px;
+
+    border-bottom: 1px solid rgb(229, 229, 229);
+    position: relative;
+
+    display: flex;
+    background-color: white;
+    align-items: center;
+
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+
+
+}
+
+.t {
+    color: rgb(96, 103, 112);
+
+    align-self: center;
+
+    position: absolute;
+    right: 10px;
+    height: 25PX;
+    line-height: 25PX;
+    font-size: 15px;
+
+}
+
+.fon {
+    margin-left: 10px;
+    color: rgb(96, 103, 112);
+    font-size: 15px;
+    height: 25px;
+    line-height: 25px;
+    align-self: flex-start;
+}
+
+.click {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+
+
+}
+
+.like {
+    flex-grow: 1;
+    width: 13vw;
+    text-align: center;
+
+}
+
+.like:hover {
+    background-color: rgb(229, 226, 226);
+}
+
+.like span {
+
+    padding-left: 5px;
+    font-size: 15px;
+
+
+    color: rgb(97, 103, 112);
+    align-self: center;
+
+
+}
+
+.like img {
+    width: 15px;
+
+
+
+
+}
+
+.share:hover {
+    background-color: rgb(229, 226, 226);
+}
+
+.share {
+    flex-grow: 1;
+    text-align: center;
+
+    width: 13vw;
+
+}
+
+.share span {
+
+    padding-left: 5px;
+    font-size: 15px;
+
+    color: rgb(97, 103, 112);
+
+}
+
+.share img {
+    width: 15px;
+
+
+}
+
+.message:hover {
+    background-color: rgb(229, 226, 226);
+}
+
+.message {
+    text-align: center;
+    flex-grow: 1;
+
+    width: 13vw;
+}
+
+.message span {
+
+    padding-left: 5px;
+    font-size: 15px;
+
+
+    color: rgb(97, 103, 112)
+}
+
+.message img {
+    width: 15px;
+
+
+}
+
+.talkbody {
+
+    border-top: 1px solid rgb(225, 225, 225);
+
+}
+
+.say {
+    background-color: rgb(242, 243, 245);
+    padding: 0 10px;
+
+    height: 40px;
+    margin-left: 5px;
+    line-height: 40px;
+    font-size: 15px;
+    align-self: center;
+    color: rgb(28, 30, 33);
+    font-size: 15px;
+    border-radius: 40px;
+
+}
+
+.right {
+
+    width: 200px;
+    right: -354px;
+    position: relative;
+    justify-content: flex-end;
+    border-left: 1px solid rgb(204,204,204);
+
+
+
+}
+
+.right span {
+
+    top: 20px
+}
+
+.cat2 .point {
+    width: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.messageleft {
+    border-radius: 50px;
+    height: 40px;
+    margin-left: 5px;
+    width: 280px;
+    background-color: rgb(242, 243, 245);
+    line-height: 40px;
+    padding-left: 10px;
+    color: rgb(28, 30, 33);
+    font-size: 15px;
+}
+
